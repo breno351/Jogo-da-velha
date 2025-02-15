@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: rgb(84, 82, 82);
+    cursor: pointer;
+    border: 1px solid #ffffff;
+
+}
+
+.cell:hover{
+    background-color: darkgray;
+
+}
